@@ -2,6 +2,8 @@ book_filename: "bookdown-start"
 chapter_name: "Chapter "
 repo: https://github.com/seankross/bookdown-start
 output_dir: docs
-rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Diving-In.Rmd"]
+always_allow_html: true
+delete_merged_file: true
+rmd_files: ["index.Rmd", "01_index.Rmd", "02_Hayman_Fire_Recovery.Rmd", "03_snow_data_assignment.Rmd", "04_beginning_spactial_analysis.Rmd", "05_lake_wq_analysis.Rmd", "06_index.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes

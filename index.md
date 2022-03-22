@@ -1,7 +1,7 @@
 --- 
 title: "Environmental Data Science Bookdown"
 author: "Madeline Carlson"
-date: "`r Sys.Date()`"
+date: "2022-03-22"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -13,14 +13,8 @@ url: 'https://mjcarlso.github.io/bookdown-start/'
 description: "This is a compiling of all the assignments done in Introduction to Environmental Data Science (ESS 580A7)."
 ---
 
-# Introduction {-}
+# Preface {-}
 
-Write something here
+This is the very first part of the book.
 
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
